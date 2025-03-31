@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Booleaner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <!--aggiunto collegamento a CSS-->
+</head>
+
+<body class="nunito-uniquifier">
+    <header class="header-pattern">
+        <img class="logo-booleaner" src="./img/logo.svg" alt="Logo Booleaner">
+        <!--a livelo di html l'header finisce perchè inizia poi il main con section e titolo-->
+    </header>
+    
+    <main class="main-layout">
+        <section>
+            <!--apriro solo una section, perchè non è diviso in diverse sezioni-->
+            <div>
+                <h1 class="titolo">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
+
+                <!--come sintassi non penso sia corretto scrivere P, perchè non è un P. Ma non saprei davvero cos'altro mettere, perchè non sono nessun tipo di <H>-->
+                <p class="sottotitolo">Scritto da <span id="autore">The Booleaner</span></p>
+                <p>il 10/10/2020</p>
+
+                <img class="paul-caption" src="./img/tim-1.jpg" alt="Tim B. Lee discorso">
+                <img class="paul-caption" src="./img/tim-2.jpg" alt="Tim B. Lee in posa">
+
+                <figcaption class="info-foto">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
+                <figcaption class="info-foto">2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+
+            </div>
+            <!--Il primo div finisce con le figcaption, e apro un nuovo div con la lista-->
+            
+            <div>
+                <p class="primo-paragrafo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ad minim veniam, quis nostrud <span id="important-part">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  </p>
+
+                <ul class="lista-lorem">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure tenetur consequatur molestiae sit, neque eligendi magnam! Tempore dignissimos eveniet, ullam quod quisquam, possimus consequuntur delectus eligendi quas ex provident.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, quam aperiam! Exercitationem recusandae inventore error maxime, similique dolorum enim. Eius cum laudantium magnam nihil obcaecati harum eveniet neque veniam accusantium.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora et deleniti molestias nisi eaque quos, earum provident voluptates sunt impedit quidem blanditiis necessitatibus, nulla illo ullam perspiciatis, adipisci dolores! Vitae.</li>
+                </ul>
+                <!--anche qui è finita la parte html. l'ultima sarà la tabella, a seguire-->
+            </div>
+            
+            <div>
+                <!--adesso iniziamo creando la tabella con le classi-->
+                <table class="table">
+                    <thead class="table-header">
+                        <th class="intestazione">Lorem Ipsum Dolor</th>
+                        <th class="intestazione">Lorem Ipsum Dolor</th>
+                        <th class="intestazione">Lorem Ipsum Dolor</th>
+                    </thead>
+
+                    <tbody>
+                        <tr class="table-row row-color">
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam possimus ab beatae impedit explicabo vel similique error quia ipsam. Delectus nostrum ipsam temporibus dolorem asperiores illo ex suscipit porro. Veritatis?</td>
+                        </tr>
+
+                        <tr class="table-row">
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ducimus, soluta eius exercitationem dicta, nobis maxime iste ut alias modi esse animi ratione ipsam, inventore nulla? Tempore omnis id reiciendis.</td>
+                        </tr>
+
+                        <tr class="table-row row-color">
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem Ipsum Dolor</td>
+                            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur neque exercitationem nulla hic fugiat animi illum cumque mollitia eum pariatur repudiandae consectetur, itaque libero harum explicabo quos nesciunt minus iste!</td>
+                        </tr>
+                    </tbody>
+                </table>
+                 <!--la tabella è finita, adesso manca solo il footer-->
+            </div>
+        </section>
+    </main>
+
+    <footer class="end-page">
+        <!--inizio footer per parte finale-->
+        <p class="copyright">Copyright The Booleaner - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>

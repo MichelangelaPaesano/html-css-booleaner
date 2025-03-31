@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+
+.nunito-uniquifier {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.header-pattern {
+    height: 150px;
+    background-color: hsl(189, 66%, 73%);
+    background-image: url(../img/pattern.png);
+    background-position: center top;
+    background-attachment: fixed;
+   
+}
+
+.logo-booleaner {
+    position: relative;
+    width: 230px;
+    top: 30%;
+    left:10%;
+
+    /*uso la relative perchè con la absolute me la sposta prendendo in considerazione non l'header ma il body intero*/
+    /*metto la % perchè se utilizzassimo un telefonino con i px la schermata potrebbe cambiare*/
+}
+
+.main-layout {
+    padding: 100px;
+}
+
+
+/*indecisa se usare padding o margin. Ma Margin si usa con i fratelli e padding con figli e padri e ho pensato che main sia figlio di body e pertanto ho utilizzato padding */
+
+.titolo {
+    font-size: 48px;
+}
+
+
+.sottotitolo {
+    font-size: 20px;
+}
+
+#autore {
+    color: rgb(0, 0, 255);
+}
+
+.paul-caption{
+    margin-top: 20px;
+}
+
+.primo-paragrafo {
+    margin-top: 20px;
+}
+
+#important-part {
+    background-color: rgb(234, 255, 0);
+}
+
+.lista-lorem {
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.table-header {
+    background-color: rgb(169, 188, 245);
+}
+
+.intestazione {
+    color: rgb(255, 255, 255)
+}
+
+.table-row {
+    height: 50px;
+}
+
+.row-color {
+    background-color: rgba(171, 190, 236, 0.2);
+}
+
+.end-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(21, 3, 95, 0.8);
+     
+}
+
+/*qui ho fatto un gran casino!*/
+
+.copyright {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
