@@ -76,8 +76,15 @@
     color: rgb(255, 255, 255);
 }
 
-.table-row {
+.linea-corta {
     width: 25%;
+}
+
+.linea-lunga {
+    width: 50%;
+}
+
+.table-row {
     height: 50px;
 }
 
