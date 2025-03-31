@@ -45,7 +45,7 @@
     font-size: 20px;
 }
 
-#autore {
+.autore {
     color: rgb(0, 0, 255);
 }
 
@@ -57,7 +57,7 @@
     margin-top: 20px;
 }
 
-#important-part {
+.important-part {
     background-color: rgb(234, 255, 0);
 }
 
@@ -73,10 +73,7 @@
 
 .table-header {
     background-color: rgb(169, 188, 245);
-}
-
-.intestazione {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 .table-row {
